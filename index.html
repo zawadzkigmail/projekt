@@ -21,10 +21,38 @@
     </nav>
 
 
-    <nav id="side-nav"> NAJNOWSZE: </nav>
+    <nav id="side-nav"> <div class="latest-books">
+        <h2>Najnowsze książki</h2>
+        <ul>
+          <li>Książka 1</li>
+          <li>Książka 2</li>
+          <li>Książka 3</li>
+          <li>Książka 4</li>
+          <li>Książka 5</li>
+          <li>Książka 6</li>
+          <li>Książka 7</li>
+          <li>Książka 8</li>
+          <li>Książka 9</li>
+          <li>Książka 10</li>
+        </ul>
+      </div> </nav>
     
     <main>
-        FORMULARZ
+        <div class="add-book-form">
+            <h2>Dodaj książkę</h2>
+            <form>
+              <label for="title">Tytuł:</label><br>
+              <input type="text" id="title" required><br>
+              <label for="author">Autor:</label><br>
+              <input type="text" id="author" required><br>
+              <label for="publisher">Wydawnictwo:</label><br>
+              <input type="text" id="publisher" required><br>
+              <label for="isbn">ISBN:</label><br>
+              <input type="number" id="isbn" required><br>
+              <input type="submit" value="Dodaj">
+              
+            </form>
+          </div>
         
     </main>
 
