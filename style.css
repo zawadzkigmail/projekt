@@ -52,6 +52,8 @@ a:active { text-decoration: none; color:cyan; }
      gap: var(--pad); 
     color: rgb(34, 128, 0);
 }
+.latest-books {
+    grid-area: latest }
 main{
     grid-row: 2 / 4;
     grid-column: 2;
